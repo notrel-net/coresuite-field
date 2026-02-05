@@ -11,7 +11,7 @@
 <resources>
 
     <!-- General Terms Begin Here -->
-    <string name="app_name">MifosXDroid</string>
+    <string name="app_name">CoreSuite Field</string>
     <string name="mifos_account">Mifos Account</string>
     <string name="enter_credentials"><b>Please enter your credentials.</b></string>
     <string name="datatables">DataTable</string>
@@ -35,7 +35,7 @@
     <string name="due_date">Due Date</string>
     <string name="locale">Locale</string>
     <string name="confirm_delete_client_image">Are you sure you want to delete this client\'s image?</string>
-    <string name="default_instance_url" translatable="false">demo.openmf.org</string>
+    <string name="default_instance_url" translatable="false">core.notrel.net</string>
     <string name="review_transaction">Review Transaction</string>
     <string name="amount">Amount</string>
     <string name="date_colon">Date:</string>

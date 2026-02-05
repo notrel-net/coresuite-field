@@ -22,7 +22,7 @@ data class AppSettings(
     companion object {
         val DEFAULT = AppSettings(
             tenant = "default",
-            baseUrl = "https://tt.mifos.community/",
+            baseUrl = "https://core.notrel.net/",
             appTheme = DarkThemeConfig.FOLLOW_SYSTEM,
             language = LanguageConfig.DEFAULT,
         )

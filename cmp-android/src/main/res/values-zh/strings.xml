@@ -34,7 +34,7 @@
     <string name="due_date">到期日期</string>
     <string name="locale">地点</string>
     <string name="confirm_delete_client_image">你确定要删除此客户的照片吗?</string>
-    <string name="default_instance_url" translatable="false">demo.openmf.org</string>
+    <string name="default_instance_url" translatable="false">core.notrel.net</string>
     <string name="review_transaction">审核交易</string>
     <string name="amount">总额</string>
     <string name="date">日期</string>

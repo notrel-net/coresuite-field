@@ -168,7 +168,7 @@ material3Android = "1.3.1"
 
 # Android Version
 androidPackageName = "AndroidApp"
-androidPackageNamespace = "com.mifos.mifosxdroid"
+androidPackageNamespace = "net.notrel.coresuite.field"
 androidPackageVersion = "1.0.0"
 uiAndroidVersion = "1.7.8"
 
