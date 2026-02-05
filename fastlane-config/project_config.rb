@@ -18,7 +18,7 @@ module FastlaneConfig
     # ============================================================================
     ANDROID = {
       # Package name for Android app
-      package_name: "com.mifos.mifosxdroid",
+      package_name: "net.notrel.coresuite.field",
 
       # Play Store credentials file path
       play_store_json_key: "secrets/playStorePublishServiceCredentialsFile.json",
@@ -51,7 +51,7 @@ module FastlaneConfig
     # ============================================================================
     IOS = {
       # Bundle identifier (CHANGE THIS FOR EACH APP)
-      app_identifier: "com.mifos.mifosxdroid",
+      app_identifier: "net.notrel.coresuite.field",
 
       # Firebase App Distribution (CHANGE THIS FOR EACH APP)
       firebase: {

@@ -12,7 +12,7 @@
 
     <!-- General Terms Begin Here -->
     <string name="app_name">CoreSuite Field</string>
-    <string name="mifos_account">Mifos Account</string>
+    <string name="mifos_account">CoreSuite Account</string>
     <string name="enter_credentials"><b>Please enter your credentials.</b></string>
     <string name="datatables">DataTable</string>
     <string name="associated_datatables">Associated Datatables</string>
@@ -40,10 +40,10 @@
     <string name="amount">Amount</string>
     <string name="date_colon">Date:</string>
     <string name="payment_type">Payment Type</string>
-    <string name="mifos_instance_domain">Mifos Instance Domain</string>
+    <string name="mifos_instance_domain">CoreSuite Instance Domain</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="mifos" translatable="false">Mifos</string>
+    <string name="mifos" translatable="false">CoreSuite</string>
     <string name="full_name">Name</string>
     <string name="external_id">External ID</string>
     <string name="loanproduct">Loan Product</string>
@@ -893,7 +893,7 @@
     <string name="about_app">Field Officer Application is an application
         developed for the Bank staff field officer to keep track of Clients,
         Centers, Groups, Loan Account, Savings Account, etc.</string>
-    <string name="about_mifos">Developed by Mifos contributors</string>
+    <string name="about_mifos">Developed by CoreSuite contributors</string>
     <string name="about_us_connect">Connect With Us</string>
     <string name="link">Visit Us</string>
     <string name="about_support_github_sub">Fork the repo and push changes or submit new issues.</string>

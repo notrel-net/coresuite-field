@@ -9,7 +9,7 @@
     See https://github.com/openMF/android-client/blob/master/LICENSE.md
 -->
 <resources>
-    <string name="app_name">MifosXDroid</string>
+    <string name="app_name">CoreSuite Field</string>
     <string name="account_number">ಖಾತೆ ಸಂಖ್ಯೆ</string>
     <string name="action_save_location">ಸ್ಥಳವನ್ನು ಉಳಿಸಿ</string>
     <string name="action_settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>

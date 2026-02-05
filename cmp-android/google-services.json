@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:728434912738:android:ecdb5b96f0e735661a1dbb",
         "android_client_info": {
-          "package_name": "com.mifos.mifosxdroid"
+          "package_name": "net.notrel.coresuite.field"
         }
       },
       "oauth_client": [
@@ -38,7 +38,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:728434912738:android:53d0930e402622611a1dbb",
         "android_client_info": {
-          "package_name": "com.mifos.mifosxdroid.demo"
+          "package_name": "net.notrel.coresuite.field.demo"
         }
       },
       "oauth_client": [
@@ -67,7 +67,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:728434912738:android:53d0930e402622611a1dbb",
         "android_client_info": {
-          "package_name": "com.mifos.mifosxdroid.demo.debug"
+          "package_name": "net.notrel.coresuite.field.demo.debug"
         }
       },
       "oauth_client": [
@@ -96,7 +96,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:728434912738:android:53d0930e402622611a1dbb",
         "android_client_info": {
-          "package_name": "com.mifos.mifosxdroid.debug"
+          "package_name": "net.notrel.coresuite.field.debug"
         }
       },
       "oauth_client": [
