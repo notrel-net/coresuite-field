@@ -9,8 +9,6 @@
  */
 package com.mifos.core.ui.components
 
-import androidclient.core.ui.generated.resources.Res
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -24,45 +22,25 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mifos.core.designsystem.theme.AppColors
 import com.mifos.core.designsystem.theme.MifosTheme
-import com.mifos.core.ui.util.LottieConstants
-import io.github.alexzhirkevich.compottie.LottieCompositionSpec
-import io.github.alexzhirkevich.compottie.animateLottieCompositionAsState
-import io.github.alexzhirkevich.compottie.rememberLottieComposition
-import io.github.alexzhirkevich.compottie.rememberLottiePainter
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
 fun MifosProgressIndicator(
     modifier: Modifier = Modifier.fillMaxSize(),
 ) {
-    val composition by rememberLottieComposition {
-        LottieCompositionSpec.JsonString(
-            Res.readBytes(LottieConstants.LOADING_ANIMATION).decodeToString(),
-        )
-    }
-    val progress by animateLottieCompositionAsState(
-        composition,
-        iterations = Int.MAX_VALUE,
-    )
-
     Box(
         modifier = modifier
             .background(AppColors.customWhite),
         contentAlignment = Alignment.Center,
     ) {
-        Image(
-            painter = rememberLottiePainter(
-                composition = composition,
-                progress = { progress },
-            ),
-            contentDescription = "Lottie animation",
+        CircularProgressIndicator(
+            strokeWidth = 4.dp,
         )
     }
 }
@@ -71,16 +49,6 @@ fun MifosProgressIndicator(
 fun MifosProgressIndicatorOverlay(
     modifier: Modifier = Modifier.fillMaxSize(),
 ) {
-    val composition by rememberLottieComposition {
-        LottieCompositionSpec.JsonString(
-            Res.readBytes(LottieConstants.LOADING_ANIMATION).decodeToString(),
-        )
-    }
-    val progress by animateLottieCompositionAsState(
-        composition,
-        iterations = Int.MAX_VALUE,
-    )
-
     Box(
         modifier = modifier
             .background(AppColors.customWhite.copy(alpha = 0.7f))
@@ -91,12 +59,8 @@ fun MifosProgressIndicatorOverlay(
             ) { },
         contentAlignment = Alignment.Center,
     ) {
-        Image(
-            painter = rememberLottiePainter(
-                composition = composition,
-                progress = { progress },
-            ),
-            contentDescription = "Loading animation",
+        CircularProgressIndicator(
+            strokeWidth = 4.dp,
         )
     }
 }
@@ -123,24 +87,16 @@ fun MifosPagingAppendProgress(modifier: Modifier = Modifier) {
 fun MifosProgressIndicatorMini(
     modifier: Modifier = Modifier,
 ) {
-    val composition by rememberLottieComposition {
-        LottieCompositionSpec.JsonString(
-            Res.readBytes(LottieConstants.LOADING_ANIMATION).decodeToString(),
-        )
-    }
-    val progress by animateLottieCompositionAsState(composition)
-
     Box(
         modifier = modifier.fillMaxWidth(),
         contentAlignment = Alignment.Center,
     ) {
-        Image(
-            painter = rememberLottiePainter(
-                composition = composition,
-                progress = { progress },
-            ),
-            contentDescription = "Lottie animation",
-            modifier = Modifier.height(100.dp),
+        CircularProgressIndicator(
+            modifier = Modifier
+                .width(40.dp)
+                .height(40.dp)
+                .padding(8.dp),
+            strokeWidth = 4.dp,
         )
     }
 }
