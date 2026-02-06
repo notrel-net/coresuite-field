@@ -208,7 +208,7 @@ internal fun AuthenticatedNavbarNavigationScreenContent(
         HomeDestinationsScreen.RunReportsScreen,
         HomeDestinationsScreen.PathTrackerScreen,
         HomeDestinationsScreen.SettingsScreen,
-        HomeDestinationsScreen.AboutScreen,
+        // About removed for CoreSuite branding
         HomeDestinationsScreen.OfflineSyncScreen,
     )
 
