@@ -1,54 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  CoreSuite top bar logo.
+  CoreSuite top bar icon.
 
-  NOTE: Android VectorDrawable does not support SVG <text> elements.
-  Your SVG's "CoreSuite" wordmark was provided as <text>, so it cannot be rendered here
-  unless you convert the text to outlines (paths) in Illustrator and re-export.
-
-  If you export the SVG with the text converted to paths, send it and I will add it.
+  Source SVG provided by Don (polygons only). Cropped to remove internal margin.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="44dp"
+    android:width="28dp"
     android:height="28dp"
-    android:viewportWidth="1650"
-    android:viewportHeight="1058">
+    android:viewportWidth="504.6"
+    android:viewportHeight="382.8">
 
-    <!-- Translate original SVG coordinates (viewBox minX=445.9, minY=737.4) into this viewport -->
+    <!-- viewBox crop: minX=1018.3, minY=737.4, width=504.6, height=382.8 -->
     <group
-        android:translateX="-445.9"
+        android:translateX="-1018.3"
         android:translateY="-737.4">
 
-        <!-- st2 polygons (CoreSuite accent blue) -->
         <path
             android:fillColor="#00BFFF"
-            android:pathData="M637.3,834.8 L705.5,881.7 L733.8,813.7 L666.6,767.5 L564,807.2 L445.9,1120.2 L516.2,1119.8 L621.4,841 Z"/>
+            android:pathData="M1209.7,834.8 L1277.9,881.7 L1306.2,813.7 L1239,767.5 L1136.4,807.2 L1018.3,1120.2 L1088.6,1119.8 L1193.8,841 Z"/>
         <path
             android:fillColor="#00BFFF"
-            android:pathData="M880.2,737.7 L775,1016.5 L759.1,1022.7 L690.9,975.8 L662.6,1043.8 L729.8,1090 L832.4,1050.3 L950.5,737.4 Z"/>
+            android:pathData="M1452.6,737.7 L1347.4,1016.5 L1331.5,1022.7 L1263.3,975.8 L1235,1043.8 L1302.2,1090 L1404.8,1050.3 L1522.9,737.4 Z"/>
         <path
             android:fillColor="#00BFFF"
-            android:pathData="M797.1,845.6 L587.5,992.4 L603.9,1012.6 L813.6,865.8 Z"/>
-
-        <!-- st0 paths (dark) -->
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M1014.3,1056.4V801.2h94l96.1,208.7h11.9l-7,6.3v-215h53.8v255.2h-94.7l-96.1-208.7h-11.9l7-6.3v215H1014.3z"/>
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M1403.8,1063c-16.8,0-31.7-2.6-44.8-7.9c-13.1-5.2-24.1-12.4-33-21.5c-9-9.1-15.8-19.5-20.5-31.3c-4.7-11.8-7-24.2-7-37.2v-8c0-13.3,2.4-25.9,7.2-37.9c4.8-12,11.8-22.5,21-31.6c9.2-9.1,20.3-16.3,33.4-21.5c13.1-5.2,27.6-7.9,43.7-7.9c16.5,0,31.3,2.6,44.2,7.9c12.9,5.2,23.9,12.4,33,21.5c9.1,9.1,16.1,19.6,21,31.6c4.9,12,7.3,24.6,7.3,37.9v8c0,13.1-2.3,25.5-7,37.2c-4.7,11.8-11.5,22.2-20.5,31.3c-9,9.1-20,16.3-33,21.5C1435.8,1060.4,1420.8,1063,1403.8,1063z M1403.8,1015.8c11,0,20-2.3,27.3-7c7.2-4.7,12.8-11.2,16.6-19.6s5.8-17.7,5.8-28c0-11-2-20.6-5.9-28.8c-4-8.3-9.6-14.9-17-19.8c-7.3-4.9-16.3-7.3-26.7-7.3c-10.3,0-19.1,2.4-26.6,7.3c-7.5,4.9-13.1,11.5-17,19.8c-3.8,8.3-5.8,17.9-5.8,28.8c0,10.3,1.9,19.6,5.6,28c3.7,8.4,9.3,14.9,16.8,19.6C1384.3,1013.5,1393.3,1015.8,1403.8,1015.8z"/>
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M1627.2,1011.6c-8.9,0-15.7-2.4-20.5-7.2c-4.8-4.8-7.2-11.7-7.2-20.8V813h-52.1v168.5c0,19.3,2.7,34.6,8.2,46c5.5,11.3,14.2,19.3,26.1,24.1c11.9,4.8,27.5,7.2,46.8,7.2h26.9v-47.2H1627.2z M1535.4,864.8l-17,40.9h137v-40.9H1535.4z"/>
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M1686.2,1056.4V864.8h44.4v82.2h-1.1c0-27,5.8-47.9,17.3-62.6c11.5-14.7,28.3-22,50.2-22h7.3v48.2h-14c-15.4,0-27.3,4.1-35.7,12.4c-8.4,8.3-12.6,20.2-12.6,35.8v97.5H1686.2z"/>
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M1913.1,1063c-16.3,0-30.7-2.8-43.2-8.4c-12.5-5.6-22.8-13.1-31.1-22.6c-8.3-9.4-14.6-20-18.9-31.8c-4.3-11.8-6.5-23.8-6.5-36.2v-7c0-12.8,2.2-25.1,6.5-36.9c4.3-11.8,10.5-22.3,18.7-31.6c8.2-9.3,18.4-16.7,30.6-22.2c12.2-5.5,26.2-8.2,41.8-8.2c20.5,0,37.8,4.6,51.9,13.8c14.1,9.2,24.9,21.2,32.3,36c7.5,14.8,11.2,30.9,11.2,48.4v18.9h-169.6v-31.8h135.6l-18.2,14.7c0-11.4-1.6-21.2-4.9-29.4c-3.3-8.2-8.1-14.4-14.5-18.7c-6.4-4.3-14.4-6.5-24-6.5c-9.8,0-18.1,2.2-24.8,6.6c-6.8,4.4-11.9,10.9-15.4,19.4c-3.5,8.5-5.2,18.9-5.2,31.3c0,11.4,1.6,21.4,4.9,29.9c3.3,8.5,8.4,15.1,15.4,19.8c7,4.7,16.1,7,27.3,7c10.3,0,18.6-2,25.2-5.9c6.5-4,11-8.9,13.3-14.7h51.4c-2.8,12.8-8.3,24.2-16.4,34.3c-8.2,10-18.4,17.8-30.8,23.4C1943.4,1060.2,1929.2,1063,1913.1,1063z"/>
-        <path
-            android:fillColor="#0A192F"
-            android:pathData="M2016.3,842.4v-41.3h79v41.3H2016.3z M2039,1056.4V801.2h56.3v255.2H2039z"/>
+            android:pathData="M1369.5,845.6 L1159.8,992.4 L1176.3,1012.6 L1386,865.8 Z"/>
 
     </group>
 </vector>
