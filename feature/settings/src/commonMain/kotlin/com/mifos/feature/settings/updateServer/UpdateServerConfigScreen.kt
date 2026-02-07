@@ -369,41 +369,8 @@ internal fun UpdateServerConfigScreenContent(
                 )
             }
 
-            item {
-                Text(
-                    stringResource(Res.string.feature_settings_label_api_path),
-                    style = MaterialTheme.typography.labelMedium,
-                    modifier = Modifier.padding(start = DesignToken.padding.large),
-                    fontFamily = FontFamily.SansSerif,
-                )
-
-                MifosOutlinedTextField(
-                    value = serverConfig.apiPath,
-                    leadingIcon = MifosIcons.Link,
-                    isError = apiPathError != null,
-                    errorText = apiPathError,
-                    keyboardType = KeyboardType.Uri,
-                    errorTextTag = serverConfig.apiPath,
-                    placeholder = stringResource(Res.string.feature_settings_api_path_placeholder),
-                    onValueChange = {
-                        onEvent(UpdateServerConfigEvent.UpdateApiPath(it))
-                    },
-                    shape = DesignToken.shapes.large,
-                    colors = OutlinedTextFieldDefaults.colors(
-                        focusedBorderColor = MaterialTheme.colorScheme.primary,
-                        unfocusedBorderColor = MaterialTheme.colorScheme.outlineVariant,
-                        focusedContainerColor = MaterialTheme.colorScheme.surface,
-                        unfocusedContainerColor = MaterialTheme.colorScheme.surface,
-                    ),
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = DesignToken.padding.large),
-                    label = "",
-                    textStyle = TextStyle(
-                        fontFamily = FontFamily.SansSerif,
-                        fontSize = MaterialTheme.typography.bodyLarge.fontSize,
-                        fontWeight = FontWeight.Medium,
-                    ),
-                )
-            }
+            // API Base Path is intentionally hidden for CoreSuite.
+            // The app uses the configured default (ServerConfig.DEFAULT.apiPath) unless changed elsewhere.
 
             item {
                 Text(
