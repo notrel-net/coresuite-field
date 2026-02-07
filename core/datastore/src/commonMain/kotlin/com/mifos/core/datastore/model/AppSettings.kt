@@ -24,7 +24,7 @@ data class AppSettings(
             tenant = "default",
             baseUrl = "https://core.notrel.net/",
             appTheme = DarkThemeConfig.FOLLOW_SYSTEM,
-            language = LanguageConfig.DEFAULT,
+            language = LanguageConfig.FRENCH,
         )
     }
 }
